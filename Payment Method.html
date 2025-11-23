@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CarVision</title>
+  <link rel="stylesheet" href="css/Payment Method.css">
+  <link rel="icon" href="photo/logo2.png" type="image/png">
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <a href="Home.html">
+        <img src="photo/logo2.png" alt="Logo" class="logo">
+      </a>
+      <h1>CarVision</h1>
+    </div>
+  </div>
+
+  <section class="hero">
+      <h2>Payment Method💳</h2>
+  </section>
+
+  <form class="payment-form" method="post" action="#">
+    <div class="section cards">
+      <label><strong>Choose a Card Type:</strong></label>
+      <label><input type="radio" name="cardType" value="Visa"> Visa</label>
+      <label><input type="radio" name="cardType" value="MasterCard"> MasterCard</label>
+      <label><input type="radio" name="cardType" value="American Express"> American Express</label>
+      <label><input type="radio" name="cardType" value="Discover"> Discover</label>
+    </div>
+
+    <div class="section">
+      <label>Card Number:</label>
+      <input type="text" name="cardNumber" placeholder="Example: 1234 3456 5678 9012 " required>
+    </div>
+
+    <div class="section">
+      <label>Cardholder Name:</label>
+      <input type="text" name="cardHolder" placeholder="Name as it on the Card" required>
+    </div>
+
+    <div class="section">
+      <label>Expiration Date:</label>
+      <input type="month" name="expiryDate" required>
+    </div>
+
+    <div class="section">
+      <label>Security Symbol(CVV):</label>
+      <input type="number" name="cvv" placeholder="3 or 4 Number" required>
+    </div>
+
+    <div class="section">
+      <button type="submit" class="submit-btn">OK</button>
+    </div>
+  </form>
+
+  <footer class="footer">
+    <p>&copy; CarVision All Rights Reserved 2025</p>
+  </footer>
+</body>
+</html>
